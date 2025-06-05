@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted } from 'vue';
 import { Volume2, CheckCircle, XCircle, RotateCcw, Trophy, Clock, X, User, Send } from 'lucide-vue-next';
-import { questions as allQuestions, type Question } from "./store";
+import { questions as allQuestions, type Question } from "./2store";
 
 const questions = ref<Question[]>(allQuestions);
 // Question interface
@@ -513,7 +513,7 @@ onUnmounted(() => {
               v-if="currentQuestion.image"
               :src="currentQuestion.image"
               :alt="currentQuestion.question"
-              class="w-full max-w-md mx-auto rounded-lg shadow-md mb-6"
+              class="w-full max-w mx-auto rounded-lg shadow-md mb-6"
             />
           </div>
 
