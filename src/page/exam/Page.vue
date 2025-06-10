@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted } from 'vue';
 import { Volume2, CheckCircle, XCircle, RotateCcw, Trophy, Clock, X, User, Send } from 'lucide-vue-next';
-import { questions as allQuestions, type Question } from "./2store";
+import { questions as allQuestions, type Question } from "./83strore";
 
 const questions = ref<Question[]>(allQuestions);
 // Question interface
@@ -476,7 +476,7 @@ onUnmounted(() => {
             <h1 class="text-lg font-semibold text-gray-800 mb-4">
               🎧 Audioni boshlash uchun <span class="text-blue-600 font-bold">“Play”</span> tugmasini bosing:
      </h1>
-            <audio class="w-full rounded-lg overflow-hidden outline-none focus:ring-2 focus:ring-blue-400" controls src="/제2회.m4a">
+            <audio class="w-full rounded-lg overflow-hidden outline-none focus:ring-2 focus:ring-blue-400" controls src="/public/83회.m4a">
     Sizning brauzeringiz audio elementni qo‘llab-quvvatlamaydi.
            </audio>
           </div>
