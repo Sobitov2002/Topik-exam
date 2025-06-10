@@ -69,7 +69,7 @@ export const questions: Question[] = [
     type: "listening",
     question: "듣기",
     image: "https://ik.imagekit.io/vtroph5l9/Topik%20IBT/2/7-10.jpg?updatedAt=1749059865248",
-    options: [" 꽃집", "극장", "예", "짜내다"],
+    options: [" 꽃집", "극장", "학교", "시장"],
     correctIndex: 3,
     score: 3
   },
@@ -78,7 +78,7 @@ export const questions: Question[] = [
     type: "listening",
     question: "듣기",
     image: "https://ik.imagekit.io/vtroph5l9/Topik%20IBT/2/7-10.jpg?updatedAt=1749059865248",
-    options: ["은행", "적합하다", "도서관", " 문구점"],
+    options: ["은행", "식당", "도서관", " 문구점"],
     correctIndex: 1,
     score: 3
   },
@@ -96,7 +96,7 @@ export const questions: Question[] = [
     type: "listening",
     question: "듣기",
     image: "https://ik.imagekit.io/vtroph5l9/Topik%20IBT/2/7-10.jpg?updatedAt=1749059865248",
-    options: ["서점", "비", "미용실", "사진관"],
+    options: ["서점", "약국", "미용실", "사진관"],
     correctIndex: 1,
     score: 4
   },
@@ -105,7 +105,7 @@ export const questions: Question[] = [
     type: "listening",
     question: "듣기",
     image: "https://ik.imagekit.io/vtroph5l9/Topik%20IBT/2/11-14.jpg?updatedAt=1749059865358",
-    options: ["나라", "미친", "회장", "주말"],
+    options: ["나라", "가족", "이름", "주말"],
     correctIndex: 1,
     score: 3
   },
@@ -132,7 +132,7 @@ export const questions: Question[] = [
     type: "listening",
     question: "듣기",
     image: "https://ik.imagekit.io/vtroph5l9/Topik%20IBT/2/11-14.jpg?updatedAt=1749059865358",
-    options: ["값", "맛", "선물", "계절"],
+    options: ["값", "맛", "위치", "계절"],
     correctIndex: 0,
     score: 3
   },
@@ -352,7 +352,7 @@ export const questions: Question[] = [
     type: "reading",
     question: "저는 김민수 씨를 모릅니다. 내일(  ) 만납니다.",
     // image: "https://yourlink/photo.png",
-    options: ["치움", "보통", "제일", "항상"],
+    options: ["치음", "보통", "제일", "항상"],
     correctIndex: 0,
     score: 3
   },
@@ -361,7 +361,7 @@ export const questions: Question[] = [
     type: "reading",
     question: "저는 볼펜이 없습니다. 연필( ) 있습니다.",
     // image: "https://yourlink/photo.png",
-    options: [" 일", " 만", "도", "로"],
+    options: [" 을", " 만", "도", "로"],
     correctIndex: 1,
     score: 2
   },
@@ -539,7 +539,7 @@ export const questions: Question[] = [
   {
     id: 59,
     type: "reading",
-    question: "[다음 문장이 들어갈 곳으로 가장 알맞은 것을 고르십시오.] 작년에도 한 달 동안 계속 눈이 왔습니다.",
+    question: "[다음 문장이 들어갈 곳으로 가장 알맞은 것을 고르십시오.] 그래서 지하철을 탈 때보다 집에서 일찍 나와야 합니다.",
     image: "https://ik.imagekit.io/vtroph5l9/Topik%20IBT/3/59-60.jpg?updatedAt=1749546265752",
     options: ["ㄱ", "ㄴ", "ㄷ", "ㄹ"],
     correctIndex: 2,
