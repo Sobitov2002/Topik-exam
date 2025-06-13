@@ -524,7 +524,7 @@ export const questions: Question[] = [
     question: "다음을 순서대로 맞게 나열한 것을 고르십시오.",
     image: "https://ik.imagekit.io/vtroph5l9/Topik%20IBT/4/57.jpg?updatedAt=1749805739791",
     options: ["(가) - (나) - (다) - (라) ", "(가) - (라) - (다) - (나)", " (라) - (가) - (나) - (다)", "(라) - (나) - (다) - (가)"],
-    correctIndex: ,
+    correctIndex:1 ,
     score: 3
   },
   {
