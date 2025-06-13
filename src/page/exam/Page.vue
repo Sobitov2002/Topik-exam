@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted } from 'vue';
 import { Volume2, CheckCircle, XCircle, RotateCcw, Trophy, Clock, X, User, Send } from 'lucide-vue-next';
-import { questions as allQuestions, type Question } from "./83strore";
+import { questions as allQuestions, type Question } from "./91Store";
 
 const questions = ref<Question[]>(allQuestions);
 // Question interface
