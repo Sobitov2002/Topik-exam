@@ -582,37 +582,37 @@ onUnmounted(() => {
             <!-- Form Fields -->
             <div class="space-y-4">
               <div>
-                <label for="firstName" class="block text-sm font-medium text-gray-700 mb-2">이름 (First Name)</label>
+                <label for="firstName" class="block text-sm font-medium text-gray-700 mb-2">Ismingizni kitiring</label>
                 <input
                   id="firstName"
                   v-model="userInfo.firstName"
                   type="text"
                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-colors"
-                  placeholder="이름을 입력하세요"
+                  placeholder="Ismingizni kitiring"
                   required
                 />
               </div>
               
               <div>
-                <label for="lastName" class="block text-sm font-medium text-gray-700 mb-2">성 (Last Name)</label>
+                <label for="lastName" class="block text-sm font-medium text-gray-700 mb-2">Familyangizni kiriting </label>
                 <input
                   id="lastName"
                   v-model="userInfo.lastName"
                   type="text"
                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-colors"
-                  placeholder="성을 입력하세요"
+                  placeholder="Familyangizni kiriting "
                   required
                 />
               </div>
               
               <div>
-                <label for="groupName" class="block text-sm font-medium text-gray-700 mb-2">그룹명 (Group Name)</label>
+                <label for="groupName" class="block text-sm font-medium text-gray-700 mb-2">Telegram nomizni kiriting !</label>
                 <input
                   id="groupName"
                   v-model="userInfo.groupName"
                   type="text"
                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-colors"
-                  placeholder="그룹명을 입력하세요"
+                  placeholder="Telegram nomizni kiriting ! "
                   required
                 />
               </div>
@@ -626,7 +626,7 @@ onUnmounted(() => {
             >
               <Send v-if="isSendingToTelegram" class="w-4 h-4 mr-2 animate-spin" />
               <span v-if="isSendingToTelegram">텔레그램으로 전송 중...</span>
-              <span v-else>결과 확인하기</span>
+              <span v-else>Natijani ko'rish</span>
             </button>
             
             <!-- Telegram Status -->
@@ -818,13 +818,13 @@ onUnmounted(() => {
               @click="closeResultsDialog"
               class="flex-1 px-4 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
             >
-              자세한 결과 보기
+              Natijani ko'rish
             </button>
             <button 
               @click="goToHomePage"
               class="flex-1 px-4 py-3 bg-gray-600 text-white rounded-lg font-semibold hover:bg-gray-700 transition-colors"
             >
-              홈으로 가기
+              Bosh sahifa
             </button>
           </div>
           
