@@ -7,7 +7,7 @@ import Header from '@/components/Header.vue'
 <template>
     <div class="  ">
         <!-- <SideBar /> -->
-        <Header />
+        
         <main class=" min-h-screen   ">
             <RouterView />
         </main>

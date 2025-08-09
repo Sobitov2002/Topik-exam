@@ -30,6 +30,12 @@
             DinaKorean
           </span>
         </div>
+        <button @click="nextpage()">
+           <span class="text-xl cursor-pointer font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+             Biz haqimizda 
+          </span>
+         
+        </button>
         
         <button class="md:hidden text-white">
           <Menu class="w-6 h-6" />
@@ -50,7 +56,7 @@
         </div>
         
         <p class="text-xl md:text-2xl text-white/80 mb-12 animate-fade-in-up animation-delay-300 max-w-2xl mx-auto">
-          Biz bilan topik juda oson! Discover the easiest way to master Korean language and ace your TOPIK exam.
+          Biz bilan topik juda oson! Koreys tilini o'zlashtirish va TOPIK imtihonini topshirishning eng oson yo'lini kashf eting.
         </p>
         
         <div class="flex flex-col sm:flex-row gap-6 justify-center animate-fade-in-up animation-delay-600">
@@ -80,7 +86,7 @@
     <section class="relative z-10 px-6 py-20">
       <div class="max-w-6xl mx-auto">
         <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent animate-fade-in-up">
-          Connect With Us
+          Bizning ijtimoiy tarmoqlarimiz !
         </h2>
         
         <div class="grid md:grid-cols-3 lg:grid-cols-5 gap-6">
@@ -225,33 +231,20 @@ const socialLinks = ref([
 ])
 
 const stats = ref<Stat[]>([
-  { value: '10K+', label: 'Active Students' },
+  { value: '1K+', label: 'Active Students' },
   { value: '500+', label: 'Expert Instructors' },
   { value: '1000+', label: 'Courses Available' }
 ])
 
-const testimonials = ref<Testimonial[]>([
-  {
-    name: 'Aziza M.',
-    role: 'TOPIK Level 6 Student',
-    text: 'DinaKorean helped me achieve my dream of reaching TOPIK level 6. The structured courses and practice tests were exactly what I needed!'
-  },
-  {
-    name: 'Bobur T.',
-    role: 'Exchange Student',
-    text: 'Thanks to DinaKorean, I was able to prepare for my exchange program in Seoul. The teachers are amazing and very supportive.'
-  },
-  {
-    name: 'Gulnora K.',
-    role: 'Beginner Student',
-    text: 'As someone who started learning Korean from scratch, DinaKorean made the process enjoyable and less intimidating. Highly recommended!'
-  }
-])
+
 
 onMounted(() => {
   // Add smooth scrolling behavior
   document.documentElement.style.scrollBehavior = 'smooth'
 })
+const nextpage = () =>{
+    router.push('/about')
+}
 </script>
 
 <style scoped>
