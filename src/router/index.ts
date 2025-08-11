@@ -2,8 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import HomeView from '@/page/main/Page.vue'
 import AboutView from '@/page/about/Page.vue'
-import Exam from '@/page/exam/Topik83.vue'
-import Exam91 from '@/page/exam/Topik91.vue'
+import Exam from '@/page/exam2/Page.vue'
+import Topik91 from '@/page/exam/Page.vue'
 import DefaultLayout from '@/layouts/MainLayouts.vue'
 import OldExam from '@/page/oldExam/Page.vue'
 
@@ -23,8 +23,8 @@ const routes = [
   },
    {
     path: '/exam91',
-    name: 'Exam91',
-    component: Exam,
+    name: 'Topik91',
+    component: Topik91,
     // meta: { layout: DefaultLayout }
   },
   {
