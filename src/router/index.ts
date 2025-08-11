@@ -2,8 +2,10 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import HomeView from '@/page/main/Page.vue'
 import AboutView from '@/page/about/Page.vue'
-import Exam from '@/page/exam/Page.vue'
+import Exam from '@/page/exam/Topik83.vue'
+import Exam91 from '@/page/exam/Topik91.vue'
 import DefaultLayout from '@/layouts/MainLayouts.vue'
+import OldExam from '@/page/oldExam/Page.vue'
 
 
 const routes = [
@@ -14,9 +16,21 @@ const routes = [
     // meta: { layout: DefaultLayout }
   },
   {
-    path: '/exam',
+    path: '/exam83',
     name: 'Exam',
     component: Exam,
+    // meta: { layout: DefaultLayout }
+  },
+   {
+    path: '/exam91',
+    name: 'Exam91',
+    component: Exam,
+    // meta: { layout: DefaultLayout }
+  },
+  {
+    path: '/oldexam',
+    name: 'OldExam',
+    component: OldExam,
     // meta: { layout: DefaultLayout }
   },
   {

@@ -185,7 +185,7 @@ interface Testimonial {
 }
 
 const nextpageExam = () => {
-  router.push('/exam')
+  router.push('/oldexam')
 }
 
 const socialLinks = ref([
